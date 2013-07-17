@@ -1,8 +1,9 @@
 package com.octothorp.facedrop;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.util.Log;
 
 public class MainActivity extends Activity {
 
@@ -18,5 +19,7 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+	int var = 0;
+	//Log.e("d","d");
 
 }
